@@ -137,7 +137,9 @@ ansible canary1 -m nagios -a "action=enable_alerts service=smart host=ec2-54-148
 ![T5_silence alerts](https://github.com/mahasanath/Milestone3/blob/master/T5_silence.png)
 
 
-
- 
+**REFERENCES
+------------
+1. http://pydoc.net/Python/ansible/1.8.2/ansible.modules.extras.monitoring.nagios/
+2. http://docs.ansible.com/playbooks_intro.html#handlers-running-operations-on-change
 
  
