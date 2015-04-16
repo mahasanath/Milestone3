@@ -7,7 +7,7 @@
 #### Pre-steps to setup deployment server on an Ubuntu server.
 --------------------------------------------------------------
 
-* In the Milestone 1, we have already build a pipeline that supports application builds.   The build can be triggered either by 'Build Now' option in jenkins master->jobs GUI which is running on the server 'ec2-54-148-145-59.us-west-2.compute.amazonaws.com'(lets say AWS1) (as per our 
+* In the Milestone 1, we have already built a pipeline that supports application builds. The build can be triggered either by 'Build Now' option in jenkins master->jobs GUI which is running on the server 'ec2-54-148-145-59.us-west-2.compute.amazonaws.com'(lets say AWS1) (as per our 
 setup in Milestone1 or by SCM change. With each git push, application build is triggered. (Please see the amazon instance IP has changed as we have restarted the instance).
 
 * The project that has been setup for the purpose of this milestone's task is 'Testslavemaven2'. The git repository link for the same is: "https://github.com/mahasanath/Firsttask.git". This is a simple java project/application which was used for the first milestone. We are continuing the pipeline using the same project.
@@ -19,7 +19,7 @@ So AWS1 will be deploying the build application to AWS2 and itself.
 
 > Open the config file in home(local machine) and enter the following. ec2 and ec4 are obtained as shown in the next step. We have just copied my-key-pair.pem to two different files.
   
-  ```bash
+ ```bash
 vim ~/.ssh/config
 ```
     Host ec2
