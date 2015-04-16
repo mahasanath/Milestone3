@@ -1,0 +1,15 @@
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] el
+[canary1]
+ec2-54-148-145-59.us-west-2.compute.amazonaws.com       ansible_ssh_private_key_file=/home/ubuntu/.ssh/ec2.pem    ansible_ssh_user=ubuntu
+
+
+[canary2]
+ec2-54-148-105-208.us-west-2.compute.amazonaws.com      ansible_ssh_private_key_file=/home/ubuntu/.ssh/ec4.pem    ansible_ssh_user=ubuntu
+
+

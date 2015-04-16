@@ -1,0 +1,5 @@
+Host ec4
+        User ubuntu
+        HostName ec2-54-148-105-208.us-west-2.compute.amazonaws.com
+        IdentityFile ~/.ssh/ec4.pem
+
