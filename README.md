@@ -71,7 +71,7 @@ sudo apt-get install -y ansible
 ```
 
   
-> Go to the ansible folder and create a file called hosts. Place the following inside it. This will configure the deployment server.
+> Go to the ansible folder and create a file called hosts. Place the following inside it. This will configure the deployment server. canary1 and canary2 are the two servers.
 
 [canary1]
 ec2-54-148-145-59.us-west-2.compute.amazonaws.com       ansible_ssh_private_key_file=/home/ubuntu/.ssh/ec2.pem    ansible_ssh_user=ubuntu
